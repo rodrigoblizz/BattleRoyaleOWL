@@ -18,7 +18,7 @@ public class OntoDataProperty extends OntoEntity {
         dataProperty = entry.getKey().asOWLDataProperty();
         values = entry.getValue();
     }
-    
+   
     public String getIdentifier() {
         return getIdentifier(dataProperty);
     }
