@@ -58,25 +58,25 @@ public class OntoIndividual extends OntoEntity {
     Talvez seja o construtor da classe OntoDataProperty deva ser modificado
     */
     
-//    public List<OntoObjectProperty> getObjectProperty() {
-//        List<OntoObjectProperty> properties = new ArrayList<OntoObjectProperty>();
-//        Map<OWLObjectPropertyExpression, Set<OWLIndividual>> objectPropertyValues
-//                = EntitySearcher.getObjectPropertyValues(owlIndividual, property, ontoModel.getOntology());
-//        
-//        for (Map.Entry<OWLObjectPropertyExpression, Set<OWLIndividual>> entry : objectPropertyValues.entrySet()) {
-//            properties.add(new OntoObjectProperty(entry));
-//        }
-//        return properties;
-//    }
+    public List<OntoObjectProperty> getObjectProperty() {
+        List<OntoObjectProperty> properties = new ArrayList<OntoObjectProperty>();
+        Map<OWLObjectPropertyExpression, Set<OWLIndividual>> objectPropertyValues
+                = EntitySearcher.getObjectPropertyValues(owlIndividual, property, ontoModel.getOntology());
+        
+        for (Map.Entry<OWLObjectPropertyExpression, Set<OWLIndividual>> entry : objectPropertyValues.entrySet()) {
+            properties.add(new OntoObjectProperty(entry));
+        }
+        return properties;
+    }
 
-//    public List<OntoDataProperty> getDataProperty() {
-//        List<OntoDataProperty> properties = new ArrayList<OntoDataProperty>();
-//        Multimap<OWLDataPropertyExpression, OWLLiteral> dataPropertyValues = EntitySearcher.getDataPropertyValues(owlIndividual, ontoModel.getOntology());
-//        
-//        for(Map.Entry<OWLDataPropertyExpression, OWLLiteral> entry : dataPropertyValues.entries()) {
-//            properties.add(new OntoDataProperty(entry));
-//        }
-//        return properties;
-//    }
+    public List<OntoDataProperty> getDataProperty() {
+        List<OntoDataProperty> properties = new ArrayList<OntoDataProperty>();
+        Multimap<OWLDataPropertyExpression, OWLLiteral> dataPropertyValues = EntitySearcher.getDataPropertyValues(owlIndividual, ontoModel.getOntology());
+        
+        for(Map.Entry<OWLDataPropertyExpression, OWLLiteral> entry : dataPropertyValues.entries()) {
+            properties.add(new OntoDataProperty(entry));
+        }
+        return properties;
+    }
 
 }
