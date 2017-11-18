@@ -1,10 +1,9 @@
-package ontology;
+package br.ufrgs.cskb.ontology;
 
 import java.util.Set;
 import org.semanticweb.owlapi.model.OWLAnnotation;
 import org.semanticweb.owlapi.model.OWLEntity;
 import org.semanticweb.owlapi.model.OWLLiteral;
-import org.semanticweb.owlapi.search.EntitySearcher;
 
 public abstract class OntoEntity {
     
@@ -20,7 +19,7 @@ public abstract class OntoEntity {
     
     protected String getLabel(OWLEntity entity) {
         String label = null;
-        Set<OWLAnnotation> annotationSet = (Set<OWLAnnotation>) EntitySearcher.getAnnotations(entity, ontoModel.getOntology());
+        Set<OWLAnnotation> annotationSet = entity.getAnnotations(ontoModel.getOntology());
         for (OWLAnnotation annotation : annotationSet) {
             if (annotation.containsEntityInSignature(ontoModel.getFactory().getRDFSLabel())) {
                 if (annotation.getValue() instanceof OWLLiteral) {
@@ -36,7 +35,7 @@ public abstract class OntoEntity {
     
     protected String getComment(OWLEntity entity) {
         String comment = null;
-       Set<OWLAnnotation> annotationSet = (Set<OWLAnnotation>) EntitySearcher.getAnnotations(entity, ontoModel.getOntology());
+        Set<OWLAnnotation> annotationSet = entity.getAnnotations(ontoModel.getOntology());
         for (OWLAnnotation annotation : annotationSet) {
             if (annotation.containsEntityInSignature(ontoModel.getFactory().getRDFSComment())) {
                 if (annotation.getValue() instanceof OWLLiteral) {

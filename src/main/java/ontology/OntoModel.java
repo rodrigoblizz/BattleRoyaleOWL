@@ -1,4 +1,4 @@
-package ontology;
+package br.ufrgs.cskb.ontology;
 
 import java.util.Set;
 import java.util.logging.Level;

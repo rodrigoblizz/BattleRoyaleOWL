@@ -1,4 +1,4 @@
-package ontology;
+package br.ufrgs.cskb.ontology;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,6 @@ import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLIndividual;
 import org.semanticweb.owlapi.reasoner.Node;
-import org.semanticweb.owlapi.search.EntitySearcher;
 
 public class OntoClass extends OntoEntity {
 
@@ -70,15 +69,13 @@ public class OntoClass extends OntoEntity {
 
     }
 
-    @SuppressWarnings("empty-statement")
     public List<OntoIndividual> getIndividuals() {
         List<OntoIndividual> individualList = new ArrayList<OntoIndividual>();
-        Set<OWLIndividual> individuals = (Set<OWLIndividual>) EntitySearcher.getIndividuals(owlClass, ontoModel.getOntology());;
+        Set<OWLIndividual> individuals = owlClass.getIndividuals(ontoModel.getOntology());
         for (OWLIndividual ind : individuals) {
             individualList.add(new OntoIndividual(ind));
         }
         return individualList;
-        
     }
 
 }

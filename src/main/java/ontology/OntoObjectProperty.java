@@ -1,4 +1,4 @@
-package ontology;
+package br.ufrgs.cskb.ontology;
 
 import java.util.ArrayList;
 import java.util.List;

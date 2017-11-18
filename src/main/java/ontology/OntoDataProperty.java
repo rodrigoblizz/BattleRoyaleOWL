@@ -1,4 +1,4 @@
-package ontology;
+package br.ufrgs.cskb.ontology;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ public class OntoDataProperty extends OntoEntity {
         dataProperty = entry.getKey().asOWLDataProperty();
         values = entry.getValue();
     }
-   
+    
     public String getIdentifier() {
         return getIdentifier(dataProperty);
     }
