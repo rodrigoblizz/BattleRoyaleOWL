@@ -6,7 +6,21 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <ui:decorate template="/welcomePrimefaces.xhtml">
         <ui:define name="centro">
-            <h:outputText value="olar #{classBean.nome}"></h:outputText>
+            <h1>Condições Metereológicas</h1>
+
+            <p:dataTable var="condicao" value="#{classBean.condicoes}">
+                <p:column headerText="IRI">
+                    <h:outputText value="#{condicao.identifier}" />
+                </p:column>
+
+                <p:column headerText="Label">
+                    <h:outputText value="#{condicao.label}" />
+                </p:column>
+
+                <p:column headerText="Comentarios">
+                    <h:outputText value="#{condicao.comment}" />
+                </p:column>
+            </p:dataTable>
         </ui:define>
     </ui:decorate>
 </html>

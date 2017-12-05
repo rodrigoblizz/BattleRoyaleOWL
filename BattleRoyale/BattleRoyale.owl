@@ -1199,6 +1199,60 @@
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9qKrbUMVakzRjJlgJQcVor"/>
         <rdfs:label xml:lang="pt">SlayerRodrigao</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Cidade -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Cidade">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
+        <rdfs:label xml:lang="pt">Cidade</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Deserto -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Deserto">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
+        <rdfs:label xml:lang="pt">Deserto</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Floresta -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Floresta">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
+        <rdfs:label xml:lang="pt">Floresta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Ilha -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Ilha">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
+        <rdfs:label xml:lang="pt">Ilha</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Montanhas -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Montanhas">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
+        <rdfs:label xml:lang="pt">Montanhas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Pântano -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Pântano">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
+        <rdfs:label xml:lang="pt">Pântano</rdfs:label>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
