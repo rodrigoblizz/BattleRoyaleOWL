@@ -29,7 +29,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/RCnktEYsOF1yGqvhWobfdlK"/>
-        <rdfs:label>temCondiçãoMetereologica</rdfs:label>
+        <rdfs:label xml:lang="pt">temCondiçãoMetereologica</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -41,8 +41,7 @@
         <owl:inverseOf rdf:resource="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#transportaPersonagem"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9qKrbUMVakzRjJlgJQcVor"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/RSytxTrrUApvLFZ8GoyxEJ"/>
-        <rdfs:label>transportadoPorVeiculo</rdfs:label>
-        <rdfs:label>utilizaVeiculo</rdfs:label>
+        <rdfs:label xml:lang="pt">transportadoPorVeiculo</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -55,7 +54,7 @@
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9CNYZ69khTTCSXe8h5bDaL"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RiSupK1yu5Xn5IcHaLx0wG"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
-        <rdfs:label>utilizaMunição</rdfs:label>
+        <rdfs:label xml:lang="pt">utilizaMunição</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -67,7 +66,7 @@
         <owl:inverseOf rdf:resource="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#realizadaPorPersonagem"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9qKrbUMVakzRjJlgJQcVor"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9fbSoZ8jtVpMIREteazOyc"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">realizaAção</rdfs:label>
+        <rdfs:label xml:lang="pt">realizaAção</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -79,8 +78,7 @@
         <owl:inverseOf rdf:resource="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#armaUtilizadaPor"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9qKrbUMVakzRjJlgJQcVor"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/RVGjlRY7fOavZR56BwmjnN"/>
-        <rdfs:label>utilizaArma</rdfs:label>
-        <rdfs:label>utilizaItem</rdfs:label>
+        <rdfs:label xml:lang="pt">utilizaItem</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -90,8 +88,7 @@
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#armaUtilizadaPor">
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RVGjlRY7fOavZR56BwmjnN"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9qKrbUMVakzRjJlgJQcVor"/>
-        <rdfs:label>utilizadaPorPersonagem</rdfs:label>
-        <rdfs:label>utilizadoPorPersonagem</rdfs:label>
+        <rdfs:label xml:lang="pt">utilizadoPorPersonagem</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -101,8 +98,7 @@
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#realizadaPorPersonagem">
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9fbSoZ8jtVpMIREteazOyc"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9qKrbUMVakzRjJlgJQcVor"/>
-        <rdfs:label>realizadaPor</rdfs:label>
-        <rdfs:label>realizadaPorPersonagem</rdfs:label>
+        <rdfs:label xml:lang="pt">realizadaPorPersonagem</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -112,6 +108,7 @@
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#transportaPersonagem">
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RSytxTrrUApvLFZ8GoyxEJ"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9qKrbUMVakzRjJlgJQcVor"/>
+        <rdfs:label xml:lang="pt">transportaPersonagem</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -122,6 +119,7 @@
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9CNYZ69khTTCSXe8h5bDaL"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/RiSupK1yu5Xn5IcHaLx0wG"/>
+        <rdfs:label xml:lang="pt">utilizadaPelaArma</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -295,7 +293,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R5YBJtjoUOltxyq4zfwaXm">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9CNYZ69khTTCSXe8h5bDaL"/>
-        <rdfs:label>Submetralhadora</rdfs:label>
+        <rdfs:label xml:lang="pt">Submetralhadora</rdfs:label>
     </owl:Class>
     
 
@@ -304,7 +302,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R7izfzwjTI5bvlPft3i0lpN">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJgfOrxooF5yuByfJFQIyP"/>
-        <rdfs:label>Capacete</rdfs:label>
+        <rdfs:label xml:lang="pt">Capacete</rdfs:label>
     </owl:Class>
     
 
@@ -319,8 +317,8 @@
                 <owl:allValuesFrom rdf:resource="http://webprotege.stanford.edu/RCnktEYsOF1yGqvhWobfdlK"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Está classe representa o local onde a partida se passa, também chamado de “Mapa” do jogo.</rdfs:comment>
-        <rdfs:label>Ambientação</rdfs:label>
+        <rdfs:comment xml:lang="pt">Está classe representa o local onde a partida se passa, também chamado de “Mapa” do jogo.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Mapa</rdfs:label>
     </owl:Class>
     
 
@@ -329,7 +327,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R80PSILEKHwGbYajCDCAmcn">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcXQgB6hzKDe6dp5m8OQdb"/>
-        <rdfs:label>Acessório</rdfs:label>
+        <rdfs:label xml:lang="pt">Acessório</rdfs:label>
     </owl:Class>
     
 
@@ -338,7 +336,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R873qT8aAbUP3sbKepopunV">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcXQgB6hzKDe6dp5m8OQdb"/>
-        <rdfs:label>Camisa</rdfs:label>
+        <rdfs:label xml:lang="pt">Camisa</rdfs:label>
     </owl:Class>
     
 
@@ -347,7 +345,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R8H98mWKZBN1T81e03GzWb">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9CNYZ69khTTCSXe8h5bDaL"/>
-        <rdfs:label>Rifle de Assalto</rdfs:label>
+        <rdfs:label xml:lang="pt">Rifle de Assalto</rdfs:label>
     </owl:Class>
     
 
@@ -356,7 +354,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R8QGPuFraTEspwmIorFuDO5">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSytxTrrUApvLFZ8GoyxEJ"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veículo terrestre</rdfs:label>
+        <rdfs:label xml:lang="pt">Veículo terrestre</rdfs:label>
     </owl:Class>
     
 
@@ -365,7 +363,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R8tpO1bC6klcimJz3SoaJ9R">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDDUiypgp8pVMR4xq0d4VCS"/>
-        <rdfs:label>Mochila</rdfs:label>
+        <rdfs:label xml:lang="pt">Mochila</rdfs:label>
     </owl:Class>
     
 
@@ -374,7 +372,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R94DvEDYPuqthjvAR1ITuE">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9kRinnAPa225gfAIf6cpdU"/>
-        <rdfs:label>Revolver</rdfs:label>
+        <rdfs:label xml:lang="pt">Revolver</rdfs:label>
     </owl:Class>
     
 
@@ -389,7 +387,7 @@
                 <owl:allValuesFrom rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Arma de Fogo</rdfs:label>
+        <rdfs:label xml:lang="pt">Arma de Fogo</rdfs:label>
     </owl:Class>
     
 
@@ -398,7 +396,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R9ZsLUySpegVZ1esr6ISmBY">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcXQgB6hzKDe6dp5m8OQdb"/>
-        <rdfs:label>Calçado</rdfs:label>
+        <rdfs:label xml:lang="pt">Calçado</rdfs:label>
     </owl:Class>
     
 
@@ -413,7 +411,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9qKrbUMVakzRjJlgJQcVor"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Ação</rdfs:label>
+        <rdfs:label xml:lang="pt">Ação</rdfs:label>
     </owl:Class>
     
 
@@ -422,7 +420,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R9kRinnAPa225gfAIf6cpdU">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9CNYZ69khTTCSXe8h5bDaL"/>
-        <rdfs:label>Arma de Mão</rdfs:label>
+        <rdfs:label xml:lang="pt">Arma de Mão</rdfs:label>
     </owl:Class>
     
 
@@ -449,7 +447,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RVGjlRY7fOavZR56BwmjnN"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Personagem</rdfs:label>
+        <rdfs:label xml:lang="pt">Personagem</rdfs:label>
     </owl:Class>
     
 
@@ -458,7 +456,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RBGNXZaKWXq7jyP6RRO2D3f">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVGjlRY7fOavZR56BwmjnN"/>
-        <rdfs:label>Item Vestivel</rdfs:label>
+        <rdfs:label xml:lang="pt">Item Vestivel</rdfs:label>
     </owl:Class>
     
 
@@ -467,7 +465,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RBJgfOrxooF5yuByfJFQIyP">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBGNXZaKWXq7jyP6RRO2D3f"/>
-        <rdfs:label>Item de Proteção</rdfs:label>
+        <rdfs:label xml:lang="pt">Item de Proteção</rdfs:label>
     </owl:Class>
     
 
@@ -476,7 +474,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RBLMoiM5TGOw8QPaYHazqeN">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCb2Xo3PDB1tUlZZt18dlh4"/>
-        <rdfs:label>Arma Branca</rdfs:label>
+        <rdfs:label xml:lang="pt">Arma Branca</rdfs:label>
     </owl:Class>
     
 
@@ -485,7 +483,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RBMrGoNcweUffXW0Hf9fVpu">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSytxTrrUApvLFZ8GoyxEJ"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veículo aéreo</rdfs:label>
+        <rdfs:label xml:lang="pt">Veículo aéreo</rdfs:label>
     </owl:Class>
     
 
@@ -494,7 +492,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RBpwhlSUFrsvlCE4AAupIYh">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9kRinnAPa225gfAIf6cpdU"/>
-        <rdfs:label>Pistola</rdfs:label>
+        <rdfs:label xml:lang="pt">Pistola</rdfs:label>
     </owl:Class>
     
 
@@ -503,7 +501,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RBzVE5RO00Jr7EE999gVXlh">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCb2Xo3PDB1tUlZZt18dlh4"/>
-        <rdfs:label>Granada</rdfs:label>
+        <rdfs:label xml:lang="pt">Granada</rdfs:label>
     </owl:Class>
     
 
@@ -512,7 +510,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RCVUGH38HgwHTzUElROx363">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVGjlRY7fOavZR56BwmjnN"/>
-        <rdfs:label>Item de Cura</rdfs:label>
+        <rdfs:label xml:lang="pt">Item de Cura</rdfs:label>
     </owl:Class>
     
 
@@ -521,7 +519,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RCb2Xo3PDB1tUlZZt18dlh4">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVGjlRY7fOavZR56BwmjnN"/>
-        <rdfs:label>Arma</rdfs:label>
+        <rdfs:label xml:lang="pt">Arma</rdfs:label>
     </owl:Class>
     
 
@@ -530,7 +528,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RCcXQgB6hzKDe6dp5m8OQdb">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBGNXZaKWXq7jyP6RRO2D3f"/>
-        <rdfs:label>Item Cosmético</rdfs:label>
+        <rdfs:label xml:lang="pt">Item Cosmético</rdfs:label>
     </owl:Class>
     
 
@@ -539,7 +537,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RCnktEYsOF1yGqvhWobfdlK">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condição Metereológica</rdfs:label>
+        <rdfs:label xml:lang="pt">Condição Metereológica</rdfs:label>
     </owl:Class>
     
 
@@ -548,7 +546,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RD1lLEbuSzhVNLDjBinzriC">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJgfOrxooF5yuByfJFQIyP"/>
-        <rdfs:label>Colete</rdfs:label>
+        <rdfs:label xml:lang="pt">Colete</rdfs:label>
     </owl:Class>
     
 
@@ -557,7 +555,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RDDUiypgp8pVMR4xq0d4VCS">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBGNXZaKWXq7jyP6RRO2D3f"/>
-        <rdfs:label>Item de Carga</rdfs:label>
+        <rdfs:label xml:lang="pt">Item de Carga</rdfs:label>
     </owl:Class>
     
 
@@ -566,7 +564,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RDGycl9R1Fs1rNKhkWJMm2T">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9CNYZ69khTTCSXe8h5bDaL"/>
-        <rdfs:label>Espingarda</rdfs:label>
+        <rdfs:label xml:lang="pt">Espingarda</rdfs:label>
     </owl:Class>
     
 
@@ -575,7 +573,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RDaIXYgDzxDUgNY7nUCRdYI">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDDUiypgp8pVMR4xq0d4VCS"/>
-        <rdfs:label>Cinto de utilidade</rdfs:label>
+        <rdfs:label xml:lang="pt">Cinto de utilidade</rdfs:label>
     </owl:Class>
     
 
@@ -584,7 +582,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RDxUIztyVKz973tS0C9NsMG">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9CNYZ69khTTCSXe8h5bDaL"/>
-        <rdfs:label>Rifle de Precisão</rdfs:label>
+        <rdfs:label xml:lang="pt">Rifle de Precisão</rdfs:label>
     </owl:Class>
     
 
@@ -599,7 +597,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9qKrbUMVakzRjJlgJQcVor"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veículo</rdfs:label>
+        <rdfs:label xml:lang="pt">Veículo</rdfs:label>
     </owl:Class>
     
 
@@ -614,7 +612,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9qKrbUMVakzRjJlgJQcVor"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Item</rdfs:label>
+        <rdfs:label xml:lang="pt">Item</rdfs:label>
     </owl:Class>
     
 
@@ -623,7 +621,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVGjlRY7fOavZR56BwmjnN"/>
-        <rdfs:label>Munição</rdfs:label>
+        <rdfs:label xml:lang="pt">Munição</rdfs:label>
     </owl:Class>
     
 
@@ -632,7 +630,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RbaauFKyViRZgHS02TQZKs">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcXQgB6hzKDe6dp5m8OQdb"/>
-        <rdfs:label>Calça</rdfs:label>
+        <rdfs:label xml:lang="pt">Calça</rdfs:label>
     </owl:Class>
     
 
@@ -641,7 +639,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RgwT7tXjig5wnOnLyVEDRe">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcXQgB6hzKDe6dp5m8OQdb"/>
-        <rdfs:label>Jaqueta</rdfs:label>
+        <rdfs:label xml:lang="pt">Jaqueta</rdfs:label>
     </owl:Class>
     
 
@@ -656,7 +654,7 @@
                 <owl:allValuesFrom rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Arma de Arremesso</rdfs:label>
+        <rdfs:label xml:lang="pt">Arma de Arremesso</rdfs:label>
     </owl:Class>
     
 
@@ -665,7 +663,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Rnkh7m14CS0cD3S25tXzJu">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSytxTrrUApvLFZ8GoyxEJ"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veículo aquático</rdfs:label>
+        <rdfs:label xml:lang="pt">Veículo aquático</rdfs:label>
     </owl:Class>
     
 
@@ -784,7 +782,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8doOl3sdYiyucMKPvZuTP1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCVUGH38HgwHTzUElROx363"/>
-        <rdfs:label>Analgésico</rdfs:label>
+        <rdfs:label xml:lang="pt">Analgésico</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -802,7 +800,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8nsZnjUQAvs1AOWOCs9U89">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9fbSoZ8jtVpMIREteazOyc"/>
-        <rdfs:label>abaixar-se</rdfs:label>
+        <rdfs:label xml:lang="pt">abaixar-se</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -811,7 +809,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8rQcFB1bdiS0KgMmqyfwl5">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
-        <rdfs:label>9mm</rdfs:label>
+        <rdfs:label xml:lang="pt">9mm</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -856,6 +854,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8zl4TrlGrjrgvEyEv3q7x4">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDxUIztyVKz973tS0C9NsMG"/>
+        <rdfs:comment xml:lang="pt">This is a precision rifle</rdfs:comment>
         <rdfs:label xml:lang="pt">AWM</rdfs:label>
     </owl:NamedIndividual>
     
@@ -991,7 +990,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBrSedAK9WOY58Gb8DLgvNv">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
-        <rdfs:label>5,56mm</rdfs:label>
+        <rdfs:label xml:lang="pt">5,56mm</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1000,7 +999,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC00aEPMBTTBHihxKuHSJF5">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
-        <rdfs:label>7,62mm</rdfs:label>
+        <rdfs:label xml:lang="pt">7,62mm</rdfs:label>
     </owl:NamedIndividual>
     
 

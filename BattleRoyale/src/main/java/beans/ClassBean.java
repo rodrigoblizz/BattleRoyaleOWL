@@ -6,11 +6,12 @@
 package beans;
 
 import javax.faces.bean.ManagedBean;
+import ontology.OntoClass;
 import ontology.OntoIndividual;
 
 /**
  *
- * @author Pichau
+ * @author Victor
  */
 @ManagedBean(name="classBean")
 public class ClassBean {
@@ -21,8 +22,8 @@ public class ClassBean {
     }
 
     public String getNome() {
-        OntoIndividual ontoInd = new OntoIndividual("AWM");
-        this.nome = ontoInd.getIdentifier();
+        OntoClass ontoClass = new OntoClass("http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r");
+        this.nome = ontoClass.getLabel();
         return nome;
     }
 
