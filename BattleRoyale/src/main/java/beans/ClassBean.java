@@ -5,16 +5,14 @@
  */
 package beans;
 
-import javax.inject.Named;
-import javax.enterprise.context.Dependent;
+import javax.faces.bean.ManagedBean;
 import ontology.OntoIndividual;
 
 /**
  *
  * @author Pichau
  */
-@Named(value = "classBean")
-@Dependent
+@ManagedBean(name="classBean")
 public class ClassBean {
 
     private String nome;
@@ -24,7 +22,7 @@ public class ClassBean {
 
     public String getNome() {
         OntoIndividual ontoInd = new OntoIndividual("AWM");
-        this.nome = ontoInd.getIdentifier();    
+        this.nome = ontoInd.getIdentifier();
         return nome;
     }
 
