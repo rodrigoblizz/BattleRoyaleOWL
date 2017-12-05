@@ -25,21 +25,23 @@
                     Footer
                 </p:layoutUnit>
 
-                <p:layoutUnit position="west" size="245" header="Left" collapsible="true">
-                    <p:menu>
-                        <p:submenu label="Resources">
-                            <p:menuitem value="Demo" url="http://www.primefaces.org/showcase-labs/ui/home.jsf" />
-                            <p:menuitem value="Documentation" url="http://www.primefaces.org/documentation.html" />
-                            <p:menuitem value="Forum" url="http://forum.primefaces.org/" />
-                            <p:menuitem value="Themes" url="http://www.primefaces.org/themes.html" />
-
-                        </p:submenu>
-
-                    </p:menu>
+                <p:layoutUnit position="west" size="245" header="Hierarquia de Classes" collapsible="true">
+                    <h:form>
+                        <p:menu>
+                            <p:menuitem value="Mapas" action="mapas.xhtml"/>
+                            <p:menuitem value="Ações" action="acoes.xhtml"/>
+                            <p:menuitem value="Condições Metereológicas" action="condicoes.xhtml"/>
+                            <p:menuitem value="Itens" action="itens.xhtml"/>
+                            <p:menuitem value="Personagens" action="personagens.xhtml"/>
+                            <p:menuitem value="Veículos" action="veiculos.xhtml"/>
+                        </p:menu>
+                    </h:form>
                 </p:layoutUnit>
 
                 <p:layoutUnit position="center">
-                    <h:outputText value="oi #{classBean.nome}"></h:outputText>
+                    <ui:insert name="centro">
+                        <!-- O que estiver aqui será substituido!-->
+                    </ui:insert>
                 </p:layoutUnit>
 
             </p:layout>
