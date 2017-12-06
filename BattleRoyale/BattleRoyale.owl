@@ -683,6 +683,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7L8RYpmJ1imuiopn58YyyF">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCnktEYsOF1yGqvhWobfdlK"/>
+        <rdfs:comment xml:lang="pt">prejudica muito a visão</rdfs:comment>
         <rdfs:label xml:lang="pt">neblina</rdfs:label>
     </owl:NamedIndividual>
     
@@ -692,6 +693,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7OFRL994D5TuXwj4TYjryp">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBLMoiM5TGOw8QPaYHazqeN"/>
+        <rdfs:comment xml:lang="pt">alavanca metálica</rdfs:comment>
         <rdfs:label xml:lang="pt">Pé de Cabra</rdfs:label>
     </owl:NamedIndividual>
     
@@ -701,6 +703,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7Pojpc7cyW8RccJnuo1JE5">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9fbSoZ8jtVpMIREteazOyc"/>
+        <rdfs:comment xml:lang="pt">ato de mover-se para a frente</rdfs:comment>
         <rdfs:label xml:lang="pt">andarParaFrente</rdfs:label>
     </owl:NamedIndividual>
     
@@ -710,6 +713,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7bVxqFLJhM7hLCASVGFOq9">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/Rnkh7m14CS0cD3S25tXzJu"/>
+        <rdfs:comment xml:lang="pt">capacidade para até 5 pessoas</rdfs:comment>
         <rdfs:label xml:lang="pt">Barco</rdfs:label>
     </owl:NamedIndividual>
     
@@ -719,6 +723,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7jG2jyVR705s5oHK4QUxmL">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9fbSoZ8jtVpMIREteazOyc"/>
+        <rdfs:comment xml:lang="pt">elevar-se do chão por impulso dos pés e das pernas</rdfs:comment>
         <rdfs:label xml:lang="pt">pular</rdfs:label>
     </owl:NamedIndividual>
     
@@ -728,6 +733,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7mB1xBCjaw3St79smbJPg4">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDGycl9R1Fs1rNKhkWJMm2T"/>
+        <rdfs:comment xml:lang="pt">possui cano duplo</rdfs:comment>
         <rdfs:label xml:lang="pt">S686</rdfs:label>
     </owl:NamedIndividual>
     
@@ -737,6 +743,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R81IccA1GK1fkXqDmX2AWpL">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBpwhlSUFrsvlCE4AAupIYh"/>
+        <rdfs:comment xml:lang="pt">utiliza munição .45 ACP</rdfs:comment>
         <rdfs:label xml:lang="pt">P1911</rdfs:label>
     </owl:NamedIndividual>
     
@@ -746,6 +753,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8GIjzhUNOX5UZJXvJsMyj7">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8H98mWKZBN1T81e03GzWb"/>
+        <rdfs:comment xml:lang="pt">arma desenvolvida na Alemanha</rdfs:comment>
         <rdfs:label xml:lang="pt">M416</rdfs:label>
     </owl:NamedIndividual>
     
@@ -755,6 +763,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8KodAqL26V8DsqFe9jsp8P">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDxUIztyVKz973tS0C9NsMG"/>
+        <rdfs:comment xml:lang="pt">usada na Alemanha Nazi e um dos melhores desenvolvidos da longa linha de fuzis da Mauser.</rdfs:comment>
         <rdfs:label xml:lang="pt">Karabiner 98K</rdfs:label>
     </owl:NamedIndividual>
     
@@ -764,6 +773,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8MOX7ZmS54x8OHnpE4wT0J">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R873qT8aAbUP3sbKepopunV"/>
+        <rdfs:comment xml:lang="pt">maior mobilidade para os braços</rdfs:comment>
         <rdfs:label xml:lang="pt">Regata</rdfs:label>
     </owl:NamedIndividual>
     
@@ -773,6 +783,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8awdUIHuSo0Ib72e3eCWbZ">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDGycl9R1Fs1rNKhkWJMm2T"/>
+        <rdfs:comment xml:lang="pt">fabricada pela Winchester Repeating Arms Company</rdfs:comment>
         <rdfs:label xml:lang="pt">S1897</rdfs:label>
     </owl:NamedIndividual>
     
@@ -782,6 +793,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8doOl3sdYiyucMKPvZuTP1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCVUGH38HgwHTzUElROx363"/>
+        <rdfs:comment xml:lang="pt">cura bastante ao longo de alguns minutos</rdfs:comment>
         <rdfs:label xml:lang="pt">Analgésico</rdfs:label>
     </owl:NamedIndividual>
     
@@ -791,6 +803,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8n9uhOPUJzCnwcDDQZ7q3u">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9fbSoZ8jtVpMIREteazOyc"/>
+        <rdfs:comment xml:lang="pt">jogar-se para a baixo</rdfs:comment>
         <rdfs:label xml:lang="pt">deitar-se</rdfs:label>
     </owl:NamedIndividual>
     
@@ -800,6 +813,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8nsZnjUQAvs1AOWOCs9U89">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9fbSoZ8jtVpMIREteazOyc"/>
+        <rdfs:comment xml:lang="pt">posição ou nível para outro menos elevado</rdfs:comment>
         <rdfs:label xml:lang="pt">abaixar-se</rdfs:label>
     </owl:NamedIndividual>
     
@@ -809,6 +823,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8rQcFB1bdiS0KgMmqyfwl5">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
+        <rdfs:comment xml:lang="pt">comumente usada em pistolas e armas leves</rdfs:comment>
         <rdfs:label xml:lang="pt">9mm</rdfs:label>
     </owl:NamedIndividual>
     
@@ -818,6 +833,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8snunSjCIzHDyd3k0mFdU7">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8QGPuFraTEspwmIorFuDO5"/>
+        <rdfs:comment xml:lang="pt">capacidade para 2 pessoas e atinge velocidade de até 100km/h</rdfs:comment>
         <rdfs:label xml:lang="pt">Buggy</rdfs:label>
     </owl:NamedIndividual>
     
@@ -827,6 +843,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8srl1zytu77mGXrwZkLWlU">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R94DvEDYPuqthjvAR1ITuE"/>
+        <rdfs:comment xml:lang="pt">utiliza munições 7.62x38mmR</rdfs:comment>
         <rdfs:label xml:lang="pt">R1895</rdfs:label>
     </owl:NamedIndividual>
     
@@ -836,6 +853,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8wYQzMnSCoQwgPX8NWQINT">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R5YBJtjoUOltxyq4zfwaXm"/>
+        <rdfs:comment xml:lang="pt">submetralhadora de médio porte</rdfs:comment>
         <rdfs:label xml:lang="pt">UMP9</rdfs:label>
     </owl:NamedIndividual>
     
@@ -845,6 +863,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8xRylf7qaRz4JTcWPQp8W">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8QGPuFraTEspwmIorFuDO5"/>
+        <rdfs:comment xml:lang="pt">capacidade para até 4 pessoas e velocidade de até 100km/h</rdfs:comment>
         <rdfs:label xml:lang="pt">Dacia 1300</rdfs:label>
     </owl:NamedIndividual>
     
@@ -854,7 +873,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8zl4TrlGrjrgvEyEv3q7x4">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDxUIztyVKz973tS0C9NsMG"/>
-        <rdfs:comment xml:lang="pt">This is a precision rifle</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Rifle de precisão com grande alcance</rdfs:comment>
         <rdfs:label xml:lang="pt">AWM</rdfs:label>
     </owl:NamedIndividual>
     
@@ -864,6 +883,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R94lQWzAg7MarAfVXrWpYFe">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBpwhlSUFrsvlCE4AAupIYh"/>
+        <rdfs:comment xml:lang="pt">possui modo automático</rdfs:comment>
         <rdfs:label xml:lang="pt">P18C</rdfs:label>
     </owl:NamedIndividual>
     
@@ -873,6 +893,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9FUitwmOjGYbCVbGfogGiF">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8QGPuFraTEspwmIorFuDO5"/>
+        <rdfs:comment xml:lang="pt">capacidade para 2 pessoas e velocidade de até 150km/h</rdfs:comment>
         <rdfs:label xml:lang="pt">Motocicleta</rdfs:label>
     </owl:NamedIndividual>
     
@@ -882,6 +903,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9KUfnTDdEYJsqZOzwrdfa">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8tpO1bC6klcimJz3SoaJ9R"/>
+        <rdfs:comment xml:lang="pt">mochila de capacidade média</rdfs:comment>
         <rdfs:label xml:lang="pt">Mochila grande</rdfs:label>
     </owl:NamedIndividual>
     
@@ -891,6 +913,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9LQsDUpSadykWooIMsaBkv">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R80PSILEKHwGbYajCDCAmcn"/>
+        <rdfs:comment xml:lang="pt">estilo e conforto</rdfs:comment>
         <rdfs:label xml:lang="pt">Boné vermelho</rdfs:label>
     </owl:NamedIndividual>
     
@@ -900,6 +923,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9LtDu7MhlnOeXfv1nwCKOz">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBzVE5RO00Jr7EE999gVXlh"/>
+        <rdfs:comment xml:lang="pt">prejudica a visão</rdfs:comment>
         <rdfs:label xml:lang="pt">Granada de fumaça</rdfs:label>
     </owl:NamedIndividual>
     
@@ -909,6 +933,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9ZgK2owuHsmKED2a7OJSVj">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBLMoiM5TGOw8QPaYHazqeN"/>
+        <rdfs:comment xml:lang="pt">Faca grande e bem afiada</rdfs:comment>
         <rdfs:label xml:lang="pt">Facão</rdfs:label>
     </owl:NamedIndividual>
     
@@ -918,6 +943,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9th7NBongh9pQI2XDh1SM">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9ZsLUySpegVZ1esr6ISmBY"/>
+        <rdfs:comment xml:lang="pt">tênis bonito mas de pouca camuflagem</rdfs:comment>
         <rdfs:label xml:lang="pt">Tênis azul</rdfs:label>
     </owl:NamedIndividual>
     
@@ -927,6 +953,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9xaZUIJDgoX4C5dfvV3ipx">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCVUGH38HgwHTzUElROx363"/>
+        <rdfs:comment xml:lang="pt">cura bastante instantâneamente</rdfs:comment>
         <rdfs:label xml:lang="pt">Kit Médico</rdfs:label>
     </owl:NamedIndividual>
     
@@ -936,6 +963,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB7v7y1g1mCjIfMnAioYbBH">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R80PSILEKHwGbYajCDCAmcn"/>
+        <rdfs:comment xml:lang="pt">diminui os raios solares aos olhos</rdfs:comment>
         <rdfs:label xml:lang="pt">Óculos escuros</rdfs:label>
     </owl:NamedIndividual>
     
@@ -945,6 +973,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBChm86qLpjcDYck6GHOLS5">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9qKrbUMVakzRjJlgJQcVor"/>
+        <rdfs:comment xml:lang="pt">jogador com 790 horas de jogo</rdfs:comment>
         <rdfs:label xml:lang="pt">VictorCosta</rdfs:label>
     </owl:NamedIndividual>
     
@@ -954,6 +983,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBD7Id1Yc1NpSjtgivRl8DP">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBMrGoNcweUffXW0Hf9fVpu"/>
+        <rdfs:comment xml:lang="pt">muito ágil e com capacidade para até 100 pessoas</rdfs:comment>
         <rdfs:label xml:lang="pt">Avião</rdfs:label>
     </owl:NamedIndividual>
     
@@ -963,6 +993,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBKKXmgUCC15vlSVtiw7CKA">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R873qT8aAbUP3sbKepopunV"/>
+        <rdfs:comment xml:lang="pt">utiliza botões e gravata</rdfs:comment>
         <rdfs:label xml:lang="pt">Camisa escolar</rdfs:label>
     </owl:NamedIndividual>
     
@@ -981,6 +1012,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBpoaiKNmRNCit94jBzPGJn">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9fbSoZ8jtVpMIREteazOyc"/>
+        <rdfs:comment xml:lang="pt">ato de mover-se para a esquerda</rdfs:comment>
         <rdfs:label xml:lang="pt">andarParaEsquerda</rdfs:label>
     </owl:NamedIndividual>
     
@@ -990,6 +1022,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBrSedAK9WOY58Gb8DLgvNv">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
+        <rdfs:comment xml:lang="pt">utilizada por grande quantidade de rifles de assalto</rdfs:comment>
         <rdfs:label xml:lang="pt">5,56mm</rdfs:label>
     </owl:NamedIndividual>
     
@@ -999,6 +1032,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC00aEPMBTTBHihxKuHSJF5">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
+        <rdfs:comment xml:lang="pt">grande potência destrutiva</rdfs:comment>
         <rdfs:label xml:lang="pt">7,62mm</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1008,6 +1042,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCKQilqMfstWdDEdo2u057N">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCnktEYsOF1yGqvhWobfdlK"/>
+        <rdfs:comment xml:lang="pt">fenômeno que resulta da condensação do vapor de água da atmosfera em pequenas gotas que, quando atingem peso suficiente, se precipitam sobre o solo.</rdfs:comment>
         <rdfs:label xml:lang="pt">chuva</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1017,6 +1052,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCa8OXh6CtPu6vsWLVopUMv">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8tpO1bC6klcimJz3SoaJ9R"/>
+        <rdfs:comment xml:lang="pt">leve e de pequena capacidade</rdfs:comment>
         <rdfs:label xml:lang="pt">Mochila pequena</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1026,6 +1062,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCn6dMfmgfVDQgs3i9Q1TS0">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCVUGH38HgwHTzUElROx363"/>
+        <rdfs:comment xml:lang="pt">deixa mais rápido</rdfs:comment>
         <rdfs:label xml:lang="pt">Injeção de adrenalina</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1053,6 +1090,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDKV8OcdEQHPDLM0uc1bUiF">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9fbSoZ8jtVpMIREteazOyc"/>
+        <rdfs:comment xml:lang="pt">ato de mover-se para a direita</rdfs:comment>
         <rdfs:label xml:lang="pt">andarParaDireita</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1062,6 +1100,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDhjU4cfkqzwBeMEdIthWvd">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RgwT7tXjig5wnOnLyVEDRe"/>
+        <rdfs:comment xml:lang="pt">proteção contra o frio e boa camuflagem</rdfs:comment>
         <rdfs:label xml:lang="pt">Jaqueta camuflada</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1071,6 +1110,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDkNrReqkOXAs17JxaYbCpy">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBLMoiM5TGOw8QPaYHazqeN"/>
+        <rdfs:comment xml:lang="pt">composto de uma lâmina curva presa a um cabo</rdfs:comment>
         <rdfs:label xml:lang="pt">Foice</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1080,6 +1120,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDofr61WEPcM0mJoR773xic">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8H98mWKZBN1T81e03GzWb"/>
+        <rdfs:comment xml:lang="pt">rifle de assalto moderno</rdfs:comment>
         <rdfs:label xml:lang="pt">SCAR-L</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1089,6 +1130,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDrpEb1n2gJjddEJinyfgHY">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8H98mWKZBN1T81e03GzWb"/>
+        <rdfs:comment xml:lang="pt">possui modo rajada</rdfs:comment>
         <rdfs:label xml:lang="pt">M16A4</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1098,6 +1140,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RI3bFGqx4d5BydU2FHixht">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDxUIztyVKz973tS0C9NsMG"/>
+        <rdfs:comment xml:lang="pt">semi automático</rdfs:comment>
         <rdfs:label xml:lang="pt">M24</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1107,6 +1150,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RPrrfbNdOXgEbPTx1lRjYF">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9fbSoZ8jtVpMIREteazOyc"/>
+        <rdfs:comment xml:lang="pt">ato de mover-se para a trás</rdfs:comment>
         <rdfs:label xml:lang="pt">andarParaTrás</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1116,6 +1160,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RSIf84LmT7LpRRnpTzWLqh">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RbaauFKyViRZgHS02TQZKs"/>
+        <rdfs:comment xml:lang="pt">item comum e muito utilizado</rdfs:comment>
         <rdfs:label xml:lang="pt">Calça jeans</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1125,6 +1170,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RYeoGeVorF7dNJJlKNVy9M">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCnktEYsOF1yGqvhWobfdlK"/>
+        <rdfs:comment xml:lang="pt">muitos raios e vento</rdfs:comment>
         <rdfs:label xml:lang="pt">tempestade</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1134,6 +1180,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RcsTJ5M2fLeEmxiNUhwCMo">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBzVE5RO00Jr7EE999gVXlh"/>
+        <rdfs:comment xml:lang="pt">explosivo de grande impacto</rdfs:comment>
         <rdfs:label xml:lang="pt">Granada de fragmentação</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1143,6 +1190,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RfqXvXsAT27ewMPJczva6N">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9ZsLUySpegVZ1esr6ISmBY"/>
+        <rdfs:comment xml:lang="pt">calçado militar comumente usado</rdfs:comment>
         <rdfs:label xml:lang="pt">Coturno</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1152,6 +1200,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rg9PinwSsBH0jnEH04KzgQ">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RiSupK1yu5Xn5IcHaLx0wG"/>
+        <rdfs:comment xml:lang="pt">arma que arremeça setas curtas</rdfs:comment>
         <rdfs:label xml:lang="pt">Besta</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1161,6 +1210,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rj2xnC6MQvwI7wOl3r3n0q">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCnktEYsOF1yGqvhWobfdlK"/>
+        <rdfs:comment xml:lang="pt">ausência de luz; escuridão.</rdfs:comment>
         <rdfs:label xml:lang="pt">nublado</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1179,6 +1229,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rqh1vK7K9DAV9SPDhm8V7a">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R5YBJtjoUOltxyq4zfwaXm"/>
+        <rdfs:comment xml:lang="pt">arma com disparos rápidos</rdfs:comment>
         <rdfs:label xml:lang="pt">Micro UZI</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1188,6 +1239,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rx8qnxLOywproAdwfHAl8C">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCnktEYsOF1yGqvhWobfdlK"/>
+        <rdfs:comment xml:lang="pt">ilumina bem o cenário</rdfs:comment>
         <rdfs:label xml:lang="pt">ensolarado</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1197,7 +1249,18 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rz6MzYrMjYwzYBGVrEQLGO">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R9qKrbUMVakzRjJlgJQcVor"/>
+        <rdfs:comment xml:lang="pt">jogador com 550 horas de jogo</rdfs:comment>
         <rdfs:label xml:lang="pt">SlayerRodrigao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Asa-delta -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Asa-delta">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBMrGoNcweUffXW0Hf9fVpu"/>
+        <rdfs:comment xml:lang="pt">para planar sobre os lugares</rdfs:comment>
+        <rdfs:label xml:lang="pt">Asa-delta</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1215,6 +1278,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Cidade">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
+        <rdfs:comment xml:lang="pt">repleto de prédios e ruas asfaltadas</rdfs:comment>
         <rdfs:label xml:lang="pt">Cidade</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1233,6 +1297,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Deserto">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
+        <rdfs:comment xml:lang="pt">pouca vegetação e muito ensolarado</rdfs:comment>
         <rdfs:label xml:lang="pt">Deserto</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1242,6 +1307,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Floresta">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
+        <rdfs:comment xml:lang="pt">muitas árvores e riachos</rdfs:comment>
         <rdfs:label xml:lang="pt">Floresta</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1251,6 +1317,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Ilha">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
+        <rdfs:comment xml:lang="pt">cercado pelos mares</rdfs:comment>
         <rdfs:label xml:lang="pt">Ilha</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1260,6 +1327,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Mochila_Militar">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8tpO1bC6klcimJz3SoaJ9R"/>
+        <rdfs:comment xml:lang="pt">Mochila de campanha utilizada por militares</rdfs:comment>
         <rdfs:label xml:lang="pt">Mochila Militar</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1269,6 +1337,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Montanhas">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
+        <rdfs:comment xml:lang="pt">muito acima do nível do mar e de difícil mobilidade</rdfs:comment>
         <rdfs:label xml:lang="pt">Montanhas</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1278,6 +1347,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Pochete">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RDaIXYgDzxDUgNY7nUCRdYI"/>
+        <rdfs:comment xml:lang="pt">item de pequena carga</rdfs:comment>
         <rdfs:label xml:lang="pt">Pochete</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1287,6 +1357,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Pântano">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
+        <rdfs:comment xml:lang="pt">muita lama e lugar de difícil mobilidade</rdfs:comment>
         <rdfs:label xml:lang="pt">Pântano</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1296,6 +1367,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#UAZ">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R8QGPuFraTEspwmIorFuDO5"/>
+        <rdfs:comment xml:lang="pt">capacidade para 5 pessoas e velocidade de até 120km/h</rdfs:comment>
         <rdfs:label xml:lang="pt">UAZ</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1305,6 +1377,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#.300_Magnum">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
+        <rdfs:comment xml:lang="pt">calibre desenvolvido em 1963</rdfs:comment>
         <rdfs:label xml:lang="pt">.300 Magnum</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1314,6 +1387,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#.45mm">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
+        <rdfs:comment xml:lang="pt">projetado para uso em protótipo de pistola semiautomática da Colt.</rdfs:comment>
         <rdfs:label xml:lang="pt">.45mm</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
