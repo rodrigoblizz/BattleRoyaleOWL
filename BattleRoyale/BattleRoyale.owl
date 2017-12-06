@@ -1003,6 +1003,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBbYvnfJkFfIsSgSRtjsuH">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RD1lLEbuSzhVNLDjBinzriC"/>
+        <rdfs:comment xml:lang="pt">comumente utilizado por policiais e seguranças.</rdfs:comment>
         <rdfs:label xml:lang="pt">Colete policial</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1072,6 +1073,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCnZxAlAsPXQxtcEWE7UWbU">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RD1lLEbuSzhVNLDjBinzriC"/>
+        <rdfs:comment xml:lang="pt">fornece pouca proteção</rdfs:comment>
         <rdfs:label xml:lang="pt">Colete leve</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1081,6 +1083,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDIPrZabaLYMfouanyrezPp">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7izfzwjTI5bvlPft3i0lpN"/>
+        <rdfs:comment xml:lang="pt">Capacete utilizado pelo exército americano, com resistência e proteção significativas</rdfs:comment>
         <rdfs:label xml:lang="pt">Capacete militar</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1220,6 +1223,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RkNTlIUzulmXD3diN7DCgq">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7izfzwjTI5bvlPft3i0lpN"/>
+        <rdfs:comment xml:lang="pt">capacete comumente utilizada por condutores de motocicletas. Pouco resistente e fornece pouca proteção ao usuário</rdfs:comment>
         <rdfs:label xml:lang="pt">Capacete de moto</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1269,6 +1273,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Capacete_de_Combate">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7izfzwjTI5bvlPft3i0lpN"/>
+        <rdfs:comment xml:lang="pt">capacete muito resistente utilizado pelas forças especiais russas</rdfs:comment>
         <rdfs:label xml:lang="pt">Capacete de Combate</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1288,6 +1293,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Colete_Militar">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RD1lLEbuSzhVNLDjBinzriC"/>
+        <rdfs:comment xml:lang="pt">colete utilizado pelo exército americano, com resistência e proteção significativas</rdfs:comment>
         <rdfs:label xml:lang="pt">Colete Militar</rdfs:label>
     </owl:NamedIndividual>
     
