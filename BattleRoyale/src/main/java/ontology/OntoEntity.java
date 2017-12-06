@@ -10,7 +10,7 @@ public abstract class OntoEntity {
     protected OntoModel ontoModel;
     
     protected OntoEntity() {
-        ontoModel = OntoModel.getInstance("file:///C:/Users/Victor/Documents/BattleRoyaleOWL/BattleRoyale/BattleRoyale.owl", "pt");
+        ontoModel = OntoModel.getInstance("file:///C:/Users/Rodrigo/Documents/BattleRoyaleOWL/BattleRoyale/BattleRoyale.owl", "pt");
     }
     
     protected String getIdentifier(OWLEntity entity) {
