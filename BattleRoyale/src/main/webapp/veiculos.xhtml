@@ -6,7 +6,53 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <ui:decorate template="/welcomePrimefaces.xhtml">
         <ui:define name="centro">
-            <h:outputText value="olar #{classBean.nome}"></h:outputText>
+            <p:accordionPanel>
+                <p:tab title="Veículos Aquáticos">
+                    <p:dataTable var="aquatico" value="#{classBean.aquaticos}">
+                        <p:column headerText="IRI">
+                            <h:outputText value="#{aquatico.identifier}" />
+                        </p:column>
+
+                        <p:column headerText="Label">
+                            <h:outputText value="#{aquatico.label}" />
+                        </p:column>
+
+                        <p:column headerText="Comentarios">
+                            <h:outputText value="#{aquatico.comment}" />
+                        </p:column>
+                    </p:dataTable>
+                </p:tab>
+                <p:tab title="Veículos Aéreos">
+                    <p:dataTable var="aereo" value="#{classBean.aereos}">
+                        <p:column headerText="IRI">
+                            <h:outputText value="#{aereo.identifier}" />
+                        </p:column>
+
+                        <p:column headerText="Label">
+                            <h:outputText value="#{aereo.label}" />
+                        </p:column>
+
+                        <p:column headerText="Comentarios">
+                            <h:outputText value="#{aereo.comment}" />
+                        </p:column>
+                    </p:dataTable>
+                </p:tab>
+                <p:tab title="Veículos Terrestres">
+                    <p:dataTable var="terrestre" value="#{classBean.terrestres}">
+                        <p:column headerText="IRI">
+                            <h:outputText value="#{terrestre.identifier}" />
+                        </p:column>
+
+                        <p:column headerText="Label">
+                            <h:outputText value="#{terrestre.label}" />
+                        </p:column>
+
+                        <p:column headerText="Comentarios">
+                            <h:outputText value="#{terrestre.comment}" />
+                        </p:column>
+                    </p:dataTable>
+                </p:tab>
+            </p:accordionPanel>
         </ui:define>
     </ui:decorate>
 </html>

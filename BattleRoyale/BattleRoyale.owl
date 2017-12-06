@@ -900,7 +900,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9LtDu7MhlnOeXfv1nwCKOz">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBzVE5RO00Jr7EE999gVXlh"/>
-        <rdfs:label xml:lang="pt">granada de fumaça</rdfs:label>
+        <rdfs:label xml:lang="pt">Granada de fumaça</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1202,11 +1202,29 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Capacete_de_Combate -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Capacete_de_Combate">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7izfzwjTI5bvlPft3i0lpN"/>
+        <rdfs:label xml:lang="pt">Capacete de Combate</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Cidade -->
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Cidade">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
         <rdfs:label xml:lang="pt">Cidade</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Colete_Militar -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Colete_Militar">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD1lLEbuSzhVNLDjBinzriC"/>
+        <rdfs:label xml:lang="pt">Colete Militar</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1238,6 +1256,15 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Mochila_Militar -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Mochila_Militar">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8tpO1bC6klcimJz3SoaJ9R"/>
+        <rdfs:label xml:lang="pt">Mochila Militar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Montanhas -->
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Montanhas">
@@ -1247,11 +1274,47 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Pochete -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Pochete">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDaIXYgDzxDUgNY7nUCRdYI"/>
+        <rdfs:label xml:lang="pt">Pochete</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Pântano -->
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#Pântano">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7pmm8WpDKzV6uxkTQX8N2r"/>
         <rdfs:label xml:lang="pt">Pântano</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#UAZ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#UAZ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8QGPuFraTEspwmIorFuDO5"/>
+        <rdfs:label xml:lang="pt">UAZ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#.300_Magnum -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#.300_Magnum">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
+        <rdfs:label xml:lang="pt">.300 Magnum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#.45mm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/CiRIAvlFb0sdNpHUqxRRa4#.45mm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RWa1qvknsor2rwKGie8ucv"/>
+        <rdfs:label xml:lang="pt">.45mm</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 

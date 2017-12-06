@@ -6,7 +6,321 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <ui:decorate template="/welcomePrimefaces.xhtml">
         <ui:define name="centro">
-            <h:outputText value="olar #{classBean.nome}"></h:outputText>
+            <p:accordionPanel>
+                <p:tab title="Armas">
+                    <p:accordionPanel>
+                        <p:tab title="Armas de Fogo">
+                            <p:accordionPanel>
+                                <p:tab title="Armas de Mão">
+                                    <p:accordionPanel>
+                                        <p:tab title="Pistolas">
+                                            <p:dataTable var="pistola" value="#{classBean.pistolas}">
+                                                <p:column headerText="IRI">
+                                                    <h:outputText value="#{pistola.identifier}" />
+                                                </p:column>
+
+                                                <p:column headerText="Label">
+                                                    <h:outputText value="#{pistola.label}" />
+                                                </p:column>
+
+                                                <p:column headerText="Comentarios">
+                                                    <h:outputText value="#{pistola.comment}" />
+                                                </p:column>
+                                            </p:dataTable>
+                                        </p:tab>
+                                        <p:tab title="Revolveres">
+                                            <p:dataTable var="revolver" value="#{classBean.revolveres}">
+                                                <p:column headerText="IRI">
+                                                    <h:outputText value="#{revolver.identifier}" />
+                                                </p:column>
+
+                                                <p:column headerText="Label">
+                                                    <h:outputText value="#{revolver.label}" />
+                                                </p:column>
+
+                                                <p:column headerText="Comentarios">
+                                                    <h:outputText value="#{revolver.comment}" />
+                                                </p:column>
+                                            </p:dataTable>
+                                        </p:tab>
+                                    </p:accordionPanel>
+                                </p:tab>
+                                <p:tab title="Espingardas">
+                                    <p:dataTable var="espingarda" value="#{classBean.espingardas}">
+                                        <p:column headerText="IRI">
+                                            <h:outputText value="#{espingarda.identifier}" />
+                                        </p:column>
+
+                                        <p:column headerText="Label">
+                                            <h:outputText value="#{espingarda.label}" />
+                                        </p:column>
+
+                                        <p:column headerText="Comentarios">
+                                            <h:outputText value="#{espingarda.comment}" />
+                                        </p:column>
+                                    </p:dataTable>
+                                </p:tab>
+                                <p:tab title="Rifles de Assalto">
+                                    <p:dataTable var="rifleDeAssalto" value="#{classBean.riflesDeAssalto}">
+                                        <p:column headerText="IRI">
+                                            <h:outputText value="#{rifleDeAssalto.identifier}" />
+                                        </p:column>
+
+                                        <p:column headerText="Label">
+                                            <h:outputText value="#{rifleDeAssalto.label}" />
+                                        </p:column>
+
+                                        <p:column headerText="Comentarios">
+                                            <h:outputText value="#{rifleDeAssalto.comment}" />
+                                        </p:column>
+                                    </p:dataTable>
+                                </p:tab>
+                                <p:tab title="Rifles de Precisão">
+                                    <p:dataTable var="rifleDePrecisao" value="#{classBean.riflesDePrecisao}">
+                                        <p:column headerText="IRI">
+                                            <h:outputText value="#{rifleDePrecisao.identifier}" />
+                                        </p:column>
+
+                                        <p:column headerText="Label">
+                                            <h:outputText value="#{rifleDePrecisao.label}" />
+                                        </p:column>
+
+                                        <p:column headerText="Comentarios">
+                                            <h:outputText value="#{rifleDePrecisao.comment}" />
+                                        </p:column>
+                                    </p:dataTable>
+                                </p:tab>
+                                <p:tab title="Submetralhadoras">
+                                    <p:dataTable var="submetralhadora" value="#{classBean.submetralhadoras}">
+                                        <p:column headerText="IRI">
+                                            <h:outputText value="#{submetralhadora.identifier}" />
+                                        </p:column>
+
+                                        <p:column headerText="Label">
+                                            <h:outputText value="#{submetralhadora.label}" />
+                                        </p:column>
+
+                                        <p:column headerText="Comentarios">
+                                            <h:outputText value="#{submetralhadora.comment}" />
+                                        </p:column>
+                                    </p:dataTable>
+                                </p:tab>
+                            </p:accordionPanel>
+                        </p:tab>
+                        <p:tab title="Armas de Arremesso">
+                            <p:dataTable var="armaDeArremesso" value="#{classBean.armasDeArremesso}">
+                                <p:column headerText="IRI">
+                                    <h:outputText value="#{armaDeArremesso.identifier}" />
+                                </p:column>
+
+                                <p:column headerText="Label">
+                                    <h:outputText value="#{armaDeArremesso.label}" />
+                                </p:column>
+
+                                <p:column headerText="Comentarios">
+                                    <h:outputText value="#{armaDeArremesso.comment}" />
+                                </p:column>
+                            </p:dataTable>
+                        </p:tab>
+                        <p:tab title="Granadas">
+                            <p:dataTable var="granada" value="#{classBean.granadas}">
+                                <p:column headerText="IRI">
+                                    <h:outputText value="#{granada.identifier}" />
+                                </p:column>
+
+                                <p:column headerText="Label">
+                                    <h:outputText value="#{granada.label}" />
+                                </p:column>
+
+                                <p:column headerText="Comentarios">
+                                    <h:outputText value="#{granada.comment}" />
+                                </p:column>
+                            </p:dataTable>
+                        </p:tab>
+                    </p:accordionPanel>
+                </p:tab>
+                <p:tab title="Itens Vestiveis">
+                    <p:accordionPanel>
+                        <p:tab title="Itens Cosméticos">
+                            <p:accordionPanel>
+                                <p:tab title="Acessórios">
+                                    <p:dataTable var="acessorio" value="#{classBean.acessorios}">
+                                        <p:column headerText="IRI">
+                                            <h:outputText value="#{acessorio.identifier}" />
+                                        </p:column>
+
+                                        <p:column headerText="Label">
+                                            <h:outputText value="#{acessorio.label}" />
+                                        </p:column>
+
+                                        <p:column headerText="Comentarios">
+                                            <h:outputText value="#{acessorio.comment}" />
+                                        </p:column>
+                                    </p:dataTable>
+                                </p:tab>
+                                <p:tab title="Calças">
+                                    <p:dataTable var="calca" value="#{classBean.calcas}">
+                                        <p:column headerText="IRI">
+                                            <h:outputText value="#{calca.identifier}" />
+                                        </p:column>
+
+                                        <p:column headerText="Label">
+                                            <h:outputText value="#{calca.label}" />
+                                        </p:column>
+
+                                        <p:column headerText="Comentarios">
+                                            <h:outputText value="#{calca.comment}" />
+                                        </p:column>
+                                    </p:dataTable>
+                                </p:tab>
+                                <p:tab title="Calçados">
+                                    <p:dataTable var="calcado" value="#{classBean.calcados}">
+                                        <p:column headerText="IRI">
+                                            <h:outputText value="#{calcado.identifier}" />
+                                        </p:column>
+
+                                        <p:column headerText="Label">
+                                            <h:outputText value="#{calcado.label}" />
+                                        </p:column>
+
+                                        <p:column headerText="Comentarios">
+                                            <h:outputText value="#{calcado.comment}" />
+                                        </p:column>
+                                    </p:dataTable>
+                                </p:tab>
+                                <p:tab title="Camisas">
+                                    <p:dataTable var="camisa" value="#{classBean.camisas}">
+                                        <p:column headerText="IRI">
+                                            <h:outputText value="#{camisa.identifier}" />
+                                        </p:column>
+
+                                        <p:column headerText="Label">
+                                            <h:outputText value="#{camisa.label}" />
+                                        </p:column>
+
+                                        <p:column headerText="Comentarios">
+                                            <h:outputText value="#{camisa.comment}" />
+                                        </p:column>
+                                    </p:dataTable>
+                                </p:tab>
+                                <p:tab title="Jaquetas">
+                                    <p:dataTable var="jaqueta" value="#{classBean.jaquetas}">
+                                        <p:column headerText="IRI">
+                                            <h:outputText value="#{jaqueta.identifier}" />
+                                        </p:column>
+
+                                        <p:column headerText="Label">
+                                            <h:outputText value="#{jaqueta.label}" />
+                                        </p:column>
+
+                                        <p:column headerText="Comentarios">
+                                            <h:outputText value="#{jaqueta.comment}" />
+                                        </p:column>
+                                    </p:dataTable>
+                                </p:tab>
+                            </p:accordionPanel>
+                        </p:tab>
+                        <p:tab title="Itens de Carga">
+                            <p:accordionPanel>
+                                <p:tab title="Cintos de Utilidade">
+                                    <p:dataTable var="cintoDeUtilidade" value="#{classBean.cintosDeUtilidade}">
+                                        <p:column headerText="IRI">
+                                            <h:outputText value="#{cintoDeUtilidade.identifier}" />
+                                        </p:column>
+
+                                        <p:column headerText="Label">
+                                            <h:outputText value="#{cintoDeUtilidade.label}" />
+                                        </p:column>
+
+                                        <p:column headerText="Comentarios">
+                                            <h:outputText value="#{cintoDeUtilidade.comment}" />
+                                        </p:column>
+                                    </p:dataTable>
+                                </p:tab>
+                                <p:tab title="Mochila">
+                                    <p:dataTable var="mochila" value="#{classBean.mochilas}">
+                                        <p:column headerText="IRI">
+                                            <h:outputText value="#{mochila.identifier}" />
+                                        </p:column>
+
+                                        <p:column headerText="Label">
+                                            <h:outputText value="#{mochila.label}" />
+                                        </p:column>
+
+                                        <p:column headerText="Comentarios">
+                                            <h:outputText value="#{mochila.comment}" />
+                                        </p:column>
+                                    </p:dataTable>
+                                </p:tab>
+                            </p:accordionPanel>
+                        </p:tab>
+                        <p:tab title="Itens de Proteção">
+                            <p:accordionPanel>
+                                <p:tab title="Capacetes">
+                                    <p:dataTable var="capacete" value="#{classBean.capacetes}">
+                                        <p:column headerText="IRI">
+                                            <h:outputText value="#{capacete.identifier}" />
+                                        </p:column>
+
+                                        <p:column headerText="Label">
+                                            <h:outputText value="#{capacete.label}" />
+                                        </p:column>
+
+                                        <p:column headerText="Comentarios">
+                                            <h:outputText value="#{capacete.comment}" />
+                                        </p:column>
+                                    </p:dataTable>
+                                </p:tab>
+                                <p:tab title="Coletes">
+                                    <p:dataTable var="colete" value="#{classBean.coletes}">
+                                        <p:column headerText="IRI">
+                                            <h:outputText value="#{colete.identifier}" />
+                                        </p:column>
+
+                                        <p:column headerText="Label">
+                                            <h:outputText value="#{colete.label}" />
+                                        </p:column>
+
+                                        <p:column headerText="Comentarios">
+                                            <h:outputText value="#{colete.comment}" />
+                                        </p:column>
+                                    </p:dataTable>
+                                </p:tab>
+                            </p:accordionPanel>
+                        </p:tab>
+                    </p:accordionPanel>
+                </p:tab>
+                <p:tab title="Itens de Cura">
+                    <p:dataTable var="itemDeCura" value="#{classBean.itensDeCura}">
+                        <p:column headerText="IRI">
+                            <h:outputText value="#{itemDeCura.identifier}" />
+                        </p:column>
+
+                        <p:column headerText="Label">
+                            <h:outputText value="#{itemDeCura.label}" />
+                        </p:column>
+
+                        <p:column headerText="Comentarios">
+                            <h:outputText value="#{itemDeCura.comment}" />
+                        </p:column>
+                    </p:dataTable>
+                </p:tab>
+                <p:tab title="Munições">
+                    <p:dataTable var="municao" value="#{classBean.municoes}">
+                        <p:column headerText="IRI">
+                            <h:outputText value="#{municao.identifier}" />
+                        </p:column>
+
+                        <p:column headerText="Label">
+                            <h:outputText value="#{municao.label}" />
+                        </p:column>
+
+                        <p:column headerText="Comentarios">
+                            <h:outputText value="#{municao.comment}" />
+                        </p:column>
+                    </p:dataTable>
+                </p:tab>
+            </p:accordionPanel>
         </ui:define>
     </ui:decorate>
 </html>
